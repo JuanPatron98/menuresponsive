@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  
+}
+header{
+  width: 100%;
+  margin: auto;
+}
+/*header*/
+.headlogo{
+  display: flex;
+  max-width: 1200px;
+  height: 100px;
+  margin: auto;
+  background-color: #adacac;
+  justify-content: center;
+  align-items: center;
+}
+.headlogo figure{
+  width: 300px;
+}
+.ancho{
+  width: 1200px;
+  
+}
+
+/*nav*/
+nav ul{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+nav li{
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  border: 2px rgb(12, 61, 124) solid;
+  padding: 10%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
